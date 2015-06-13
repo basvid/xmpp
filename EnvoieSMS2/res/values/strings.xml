@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EnvoieSMS2</string>
+ <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="androidSMS">SMS App</string>
+    <string name="intro">Appuyer sur Menu</string>
+    
+
+</resources>

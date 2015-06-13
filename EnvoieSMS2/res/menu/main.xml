@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <!-- this is a comment  <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    -->
+    
+    <item android:id="@+id/option"
+      android:title="Options"
+      android:icon="@android:drawable/ic_menu_preferences"
+      >
+  
+     <menu android:id="@+id/sousmenu">
+     <item android:id="@+id/btnCompose"
+           android:title="envoyer sms"   />  
+  
+     <item android:id="@+id/btnInbox"
+           android:title="recevoir sms"  />
+     </menu>
+</item>
+  
+<item android:id="@+id/quitter"
+     android:title="Quitter"
+      android:icon="@android:drawable/ic_menu_close_clear_cancel"
+     />
+</menu>

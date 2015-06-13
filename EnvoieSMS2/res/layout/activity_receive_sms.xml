@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/MainLayout"
+    android:weightSum="1"
+    >
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:text="SMS receive"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView android:id="@+id/SMSList"
+        android:layout_height="389dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.79" />
+
+    <Button
+        android:id="@+id/btnCompose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToCompose"
+        android:text="Compose" />
+
+</LinearLayout>
